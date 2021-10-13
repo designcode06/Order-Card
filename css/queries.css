@@ -1,0 +1,49 @@
+/* 480px */
+@media (max-width: 30em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  body {
+    background-image: url(/img/pattern-background-mobile.svg);
+  }
+
+  .heading-primary {
+    font-size: 2.4rem;
+  }
+}
+
+/* 416px */
+@media (max-width: 26em) {
+  .text-box {
+    padding: 2.4rem;
+  }
+
+  .plan-description {
+    font-size: 1.6rem;
+  }
+}
+
+/* 352px */
+@media (max-width: 22em) {
+  .plan {
+    flex-direction: column;
+  }
+
+  .plan-description {
+    text-align: center;
+    margin: 1.2rem 0;
+  }
+
+  .plan-link:link,
+  .plan-link:visited {
+    position: static;
+  }
+}
+
+/* 304px */
+@media (max-width: 19em) {
+  html {
+    font-size: 50%;
+  }
+}
